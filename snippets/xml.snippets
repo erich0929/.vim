@@ -1,0 +1,18 @@
+snippet web-app
+	<web-app xmlns="http://java.sun.com/xml/nx/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	${1}
+	</web-app>
+snippet ser
+	<servlet>
+		<servlet-name>${1}</servlet-name>
+		<servlet-class>${2}</servlet-class>
+	</servlet>
+snippet ser-map
+	<servlet-mapping>
+		<servlet-name>${1}</servlet-name>
+		<url-pattern>${2}</url-pattern>
+	</servlet-mapping>
+
